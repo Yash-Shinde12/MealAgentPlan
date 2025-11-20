@@ -1,0 +1,879 @@
+{
+  "plan_id": "plan_20251120_153822",
+  "session_id": "21d32ee4-3c6d-42f9-a07d-5f38da441a04",
+  "user": "Yash",
+  "days": {
+    "Monday": [
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_018",
+        "recipe_name": "Fish Curry with Rice",
+        "cal": 590,
+        "protein_g": 38,
+        "ingredients": [
+          "fish",
+          "rice",
+          "coconut",
+          "tamarind",
+          "curry leaves",
+          "spices"
+        ],
+        "prep_time_min": 40,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "workout",
+        "time": "18:00",
+        "type": "resistance",
+        "focus": "Upper Body",
+        "duration_min": 45,
+        "notes": "Upper Body - 45 minutes"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Tuesday": [
+      {
+        "meal": "workout",
+        "time": "07:00",
+        "type": "cardio",
+        "focus": "Light Jogging",
+        "duration_min": 30,
+        "notes": "Light Jogging - 30 minutes"
+      },
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_018",
+        "recipe_name": "Fish Curry with Rice",
+        "cal": 590,
+        "protein_g": 38,
+        "ingredients": [
+          "fish",
+          "rice",
+          "coconut",
+          "tamarind",
+          "curry leaves",
+          "spices"
+        ],
+        "prep_time_min": 40,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Wednesday": [
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "workout",
+        "time": "18:00",
+        "type": "resistance",
+        "focus": "Lower Body",
+        "duration_min": 45,
+        "notes": "Lower Body - 45 minutes"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_007",
+        "recipe_name": "Grilled Chicken with Sweet Potato",
+        "cal": 580,
+        "protein_g": 42,
+        "ingredients": [
+          "chicken breast",
+          "sweet potato",
+          "olive oil",
+          "turmeric",
+          "black pepper",
+          "lemon"
+        ],
+        "prep_time_min": 35,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Thursday": [
+      {
+        "meal": "workout",
+        "time": "07:00",
+        "type": "yoga",
+        "focus": "Flexibility & Core",
+        "duration_min": 30,
+        "notes": "Flexibility & Core - 30 minutes"
+      },
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_004",
+        "recipe_name": "Paneer Tikka Masala",
+        "cal": 550,
+        "protein_g": 25,
+        "ingredients": [
+          "paneer",
+          "bell peppers",
+          "tomatoes",
+          "cream",
+          "cashews",
+          "spices"
+        ],
+        "prep_time_min": 40,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Friday": [
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "workout",
+        "time": "18:00",
+        "type": "resistance",
+        "focus": "Full Body",
+        "duration_min": 50,
+        "notes": "Full Body - 50 minutes"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_013",
+        "recipe_name": "Palak Paneer with Roti",
+        "cal": 540,
+        "protein_g": 24,
+        "ingredients": [
+          "spinach",
+          "paneer",
+          "whole wheat flour",
+          "cream",
+          "ginger",
+          "garlic"
+        ],
+        "prep_time_min": 35,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Saturday": [
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "workout",
+        "time": "10:00",
+        "type": "sports",
+        "focus": "Recreational Activity",
+        "duration_min": 60,
+        "notes": "Recreational Activity - 60 minutes"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Light dinner for gut health"
+      }
+    ],
+    "Sunday": [
+      {
+        "meal": "breakfast",
+        "time": "08:00",
+        "recipe_id": "rec_005",
+        "recipe_name": "Egg Bhurji with Whole Wheat Paratha",
+        "cal": 520,
+        "protein_g": 22,
+        "ingredients": [
+          "eggs",
+          "tomatoes",
+          "green chili",
+          "whole wheat flour",
+          "ghee",
+          "turmeric"
+        ],
+        "prep_time_min": 20,
+        "notes": "High-protein breakfast for energy"
+      },
+      {
+        "meal": "workout",
+        "time": "08:00",
+        "type": "rest",
+        "focus": "Active Recovery",
+        "duration_min": 20,
+        "notes": "Active Recovery - 20 minutes"
+      },
+      {
+        "meal": "snack",
+        "time": "11:00",
+        "recipe_id": "rec_011",
+        "recipe_name": "Moong Dal Cheela (Savory Pancake)",
+        "cal": 390,
+        "protein_g": 16,
+        "ingredients": [
+          "moong dal",
+          "ginger",
+          "green chili",
+          "coriander",
+          "ghee"
+        ],
+        "prep_time_min": 25,
+        "notes": "Mid-morning snack"
+      },
+      {
+        "meal": "lunch",
+        "time": "13:30",
+        "recipe_id": "rec_012",
+        "recipe_name": "Rajma Chawal (Kidney Bean Curry with Rice)",
+        "cal": 620,
+        "protein_g": 20,
+        "ingredients": [
+          "kidney beans",
+          "rice",
+          "tomatoes",
+          "ginger",
+          "garlic",
+          "spices"
+        ],
+        "prep_time_min": 45,
+        "notes": "Protein-rich lunch"
+      },
+      {
+        "meal": "evening_snack",
+        "time": "17:00",
+        "recipe_id": "rec_014",
+        "recipe_name": "Protein Smoothie with Nuts",
+        "cal": 480,
+        "protein_g": 28,
+        "ingredients": [
+          "milk",
+          "banana",
+          "almonds",
+          "dates",
+          "protein powder",
+          "honey"
+        ],
+        "prep_time_min": 5,
+        "notes": "Pre-workout fuel"
+      },
+      {
+        "meal": "dinner",
+        "time": "20:00",
+        "recipe_id": "rec_018",
+        "recipe_name": "Fish Curry with Rice",
+        "cal": 590,
+        "protein_g": 38,
+        "ingredients": [
+          "fish",
+          "rice",
+          "coconut",
+          "tamarind",
+          "curry leaves",
+          "spices"
+        ],
+        "prep_time_min": 40,
+        "notes": "Light dinner for gut health"
+      }
+    ]
+  },
+  "shopping_list": [
+    {
+      "item": "almonds",
+      "qty": "210g",
+      "meals_used": 7
+    },
+    {
+      "item": "banana",
+      "qty": "49 pieces",
+      "meals_used": 7
+    },
+    {
+      "item": "bell peppers",
+      "qty": "100g",
+      "meals_used": 1
+    },
+    {
+      "item": "black pepper",
+      "qty": "100g",
+      "meals_used": 1
+    },
+    {
+      "item": "cashews",
+      "qty": "30g",
+      "meals_used": 1
+    },
+    {
+      "item": "chicken breast",
+      "qty": "250g",
+      "meals_used": 1
+    },
+    {
+      "item": "coconut",
+      "qty": "300g",
+      "meals_used": 3
+    },
+    {
+      "item": "coriander",
+      "qty": "700g",
+      "meals_used": 7
+    },
+    {
+      "item": "cream",
+      "qty": "200g",
+      "meals_used": 2
+    },
+    {
+      "item": "curry leaves",
+      "qty": "300g",
+      "meals_used": 3
+    },
+    {
+      "item": "dates",
+      "qty": "2 pieces",
+      "meals_used": 7
+    },
+    {
+      "item": "eggs",
+      "qty": "98 pieces",
+      "meals_used": 7
+    },
+    {
+      "item": "fish",
+      "qty": "300g",
+      "meals_used": 3
+    },
+    {
+      "item": "garlic",
+      "qty": "900g",
+      "meals_used": 9
+    },
+    {
+      "item": "ghee",
+      "qty": "700g",
+      "meals_used": 14
+    },
+    {
+      "item": "ginger",
+      "qty": "1.6kg",
+      "meals_used": 16
+    },
+    {
+      "item": "green chili",
+      "qty": "1.4kg",
+      "meals_used": 14
+    },
+    {
+      "item": "honey",
+      "qty": "700g",
+      "meals_used": 7
+    },
+    {
+      "item": "kidney beans",
+      "qty": "800g",
+      "meals_used": 8
+    },
+    {
+      "item": "lemon",
+      "qty": "100g",
+      "meals_used": 1
+    },
+    {
+      "item": "milk",
+      "qty": "1.4kg",
+      "meals_used": 7
+    },
+    {
+      "item": "moong dal",
+      "qty": "700g",
+      "meals_used": 7
+    },
+    {
+      "item": "olive oil",
+      "qty": "30g",
+      "meals_used": 1
+    },
+    {
+      "item": "paneer",
+      "qty": "400g",
+      "meals_used": 2
+    },
+    {
+      "item": "protein powder",
+      "qty": "700g",
+      "meals_used": 7
+    },
+    {
+      "item": "rice",
+      "qty": "5.5kg",
+      "meals_used": 11
+    },
+    {
+      "item": "spices",
+      "qty": "1.2kg",
+      "meals_used": 12
+    },
+    {
+      "item": "spinach",
+      "qty": "200g",
+      "meals_used": 1
+    },
+    {
+      "item": "sweet potato",
+      "qty": "200g",
+      "meals_used": 1
+    },
+    {
+      "item": "tamarind",
+      "qty": "300g",
+      "meals_used": 3
+    },
+    {
+      "item": "tomatoes",
+      "qty": "2.4kg",
+      "meals_used": 16
+    },
+    {
+      "item": "turmeric",
+      "qty": "800g",
+      "meals_used": 8
+    },
+    {
+      "item": "whole wheat flour",
+      "qty": "1.2kg",
+      "meals_used": 8
+    }
+  ],
+  "estimated_daily_calories": 3000,
+  "verification": {
+    "passed": false,
+    "daily_calories": 2590.0,
+    "target_calories": 2677.75,
+    "daily_protein": 118.14285714285714,
+    "target_protein": 90.0,
+    "recommendations": [
+      "Avoid gut-risk ingredients: green chili, garlic"
+    ]
+  },
+  "created_at": "2025-11-20T15:38:22.363277"
+}

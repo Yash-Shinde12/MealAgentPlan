@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 import time
 
 
@@ -27,7 +27,7 @@ class BaseAgent(ABC):
         """
         pass
     
-    def log(self, level: str, message: str, data: Dict[str, Any] = None):
+    def log(self, level: str, message: str, data: Optional[Dict[str, Any]] = None):
         """Log message with structured data"""
         if self.logger:
             self.logger.log(level, f"[{self.name}] {message}", data or {})

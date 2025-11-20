@@ -1,0 +1,29 @@
+{
+  "user_profile": {
+    "name": "Test User",
+    "age": 20,
+    "height_cm": 168,
+    "weight_kg": 45,
+    "goal": "gain_weight",
+    "activity_level": "moderate",
+    "wake_time": "07:00",
+    "sleep_time": "23:00"
+  },
+  "preferences": {
+    "cuisine": [
+      "Indian",
+      "South Indian"
+    ],
+    "dislikes": [],
+    "allergies": [],
+    "gut_issues": true
+  },
+  "pantry": {},
+  "history": [
+    {
+      "date": "2025-11-20",
+      "plan_id": "plan_20251120_153824",
+      "success_rate": 0.8
+    }
+  ]
+}

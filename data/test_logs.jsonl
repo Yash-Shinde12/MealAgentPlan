@@ -1,0 +1,162 @@
+{"timestamp": "2025-11-20T15:38:24.271926", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 400, "cuisines": ["Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.272393", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.284230", "level": "INFO", "message": "[NutritionVerifier] Verifying meal plan nutrition", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.288930", "level": "INFO", "message": "[NutritionVerifier] Verification complete", "data": {"passed": false, "calories": "1700.0/2677.75", "protein": "80.0g/90.0g"}}
+{"timestamp": "2025-11-20T15:38:24.296691", "level": "INFO", "message": "[Planner] Generating 7-day meal plan", "data": {"goal": "gain_weight", "cuisines": ["Indian", "South Indian"]}}
+{"timestamp": "2025-11-20T15:38:24.297139", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.297639", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.298166", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.298634", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.299042", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.299511", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.299924", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.300386", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.300775", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.301197", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.301635", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.302087", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.302705", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.303231", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.303730", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.304441", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.305134", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.305748", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.306364", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.306977", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.307750", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.308433", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.309203", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.310084", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.310818", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.311412", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.312206", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.313110", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.313527", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.314987", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.315455", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.315929", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.316533", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.317010", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.317428", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.317850", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.318281", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.318684", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.319110", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.319530", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.320204", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.320627", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.321219", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.322496", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.323082", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.324070", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.324524", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.324944", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.325368", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.325783", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.326193", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.326617", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.327038", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.327475", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.327916", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.328350", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.328753", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.329196", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.329610", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.330030", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.330448", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.330840", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.331247", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.331652", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.332084", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.332469", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.332841", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.333281", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.333666", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.334063", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.334428", "level": "INFO", "message": "[Planner] Plan generated successfully", "data": {"days": 0, "estimated_calories": 3000}}
+{"timestamp": "2025-11-20T15:38:24.339810", "level": "INFO", "message": "[Scheduler] Scheduling meals and generating shopping list", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.340331", "level": "INFO", "message": "[Scheduler] Scheduling complete", "data": {"days": 2, "shopping_items": 7}}
+{"timestamp": "2025-11-20T15:38:24.347069", "level": "INFO", "message": "Session created", "data": {"session_id": "a5742991-5efa-45dd-aeaf-b318acfff56d"}}
+{"timestamp": "2025-11-20T15:38:24.347428", "level": "INFO", "message": "Starting meal plan creation", "data": {"session_id": "a5742991-5efa-45dd-aeaf-b318acfff56d"}}
+{"timestamp": "2025-11-20T15:38:24.347744", "level": "INFO", "message": "Step 1: Generating meal plan with Planner agent", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.348073", "level": "INFO", "message": "[Planner] Generating 7-day meal plan", "data": {"goal": "gain_weight", "cuisines": ["Indian", "South Indian"]}}
+{"timestamp": "2025-11-20T15:38:24.348405", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.348720", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.349022", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.349352", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.349635", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.350019", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.350407", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.350810", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.351226", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.351631", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.352103", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.352502", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.352889", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.353305", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.353684", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.354103", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.354489", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.354885", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.355195", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.355515", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.355898", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.356276", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.356608", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.356994", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.357353", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.357743", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.358133", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.358569", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.358949", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.359337", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.359709", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.360115", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.360496", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.360904", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.361285", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.361672", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.362043", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.362388", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.362705", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.363143", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.363537", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.363923", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.364296", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.364621", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.364981", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.365381", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.365757", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.366122", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.366436", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.366819", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.367184", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.367517", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.367836", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.368182", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.368557", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.368883", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.369194", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.369602", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.369925", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.370245", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.370601", "level": "INFO", "message": "[RecipeWorker] Searching recipes for breakfast", "data": {"calorie_target": 500, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.370977", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.371301", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 400, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.371677", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.372025", "level": "INFO", "message": "[RecipeWorker] Searching recipes for lunch", "data": {"calorie_target": 700, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.372409", "level": "INFO", "message": "[RecipeWorker] Found 11 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.372787", "level": "INFO", "message": "[RecipeWorker] Searching recipes for snack", "data": {"calorie_target": 450, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.373188", "level": "INFO", "message": "[RecipeWorker] Found 7 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.373566", "level": "INFO", "message": "[RecipeWorker] Searching recipes for dinner", "data": {"calorie_target": 650, "cuisines": ["Indian", "South Indian"], "gut_friendly": true}}
+{"timestamp": "2025-11-20T15:38:24.373996", "level": "INFO", "message": "[RecipeWorker] Found 9 matching recipes", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.374379", "level": "INFO", "message": "[Planner] Plan generated successfully", "data": {"days": 0, "estimated_calories": 3000}}
+{"timestamp": "2025-11-20T15:38:24.374784", "level": "INFO", "message": "Step 2: Verifying nutrition with Verifier agent", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.375245", "level": "INFO", "message": "[NutritionVerifier] Verifying meal plan nutrition", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.413902", "level": "INFO", "message": "[NutritionVerifier] Verification complete", "data": {"passed": false, "calories": "2590.0/2677.75", "protein": "118.14285714285714g/90.0g"}}
+{"timestamp": "2025-11-20T15:38:24.414701", "level": "WARNING", "message": "Nutrition verification failed", "data": {"recommendations": ["Avoid gut-risk ingredients: green chili, garlic"]}}
+{"timestamp": "2025-11-20T15:38:24.415314", "level": "INFO", "message": "Step 3: Scheduling meals with Scheduler agent", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.415954", "level": "INFO", "message": "[Scheduler] Scheduling meals and generating shopping list", "data": {}}
+{"timestamp": "2025-11-20T15:38:24.416921", "level": "INFO", "message": "[Scheduler] Scheduling complete", "data": {"days": 7, "shopping_items": 33}}
+{"timestamp": "2025-11-20T15:38:24.418818", "level": "INFO", "message": "Session completed", "data": {"session_id": "a5742991-5efa-45dd-aeaf-b318acfff56d"}}
+{"timestamp": "2025-11-20T15:38:24.419432", "level": "INFO", "message": "Meal plan creation completed successfully", "data": {"plan_id": "plan_20251120_153824", "verification_passed": false}}

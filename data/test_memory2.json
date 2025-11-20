@@ -1,0 +1,15 @@
+{
+  "user_profile": {
+    "name": "Test",
+    "age": 25
+  },
+  "preferences": {},
+  "pantry": {},
+  "history": [
+    {
+      "date": "2025-11-20",
+      "plan_id": "plan_001",
+      "success_rate": 0.9
+    }
+  ]
+}
