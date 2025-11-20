@@ -1,0 +1,162 @@
+1 — One-sentence goal (MVP)
+
+A multi-agent system that creates a personalized 7-day meal plan + workout schedule for a user trying to gain weight and improve gut health, produces a shopping list, and remembers user preferences across sessions.
+
+2 — High-level architecture (simple)
+[User CLI / Web UI]  ->  [Orchestrator Agent]
+                          ├─ Planner Agent (LLM)         -> proposes meals + workouts
+                          ├─ Nutrition Verifier Agent    -> checks calories/macros & gut-friendly flags
+                          ├─ Recipe Tool Worker         -> fetches recipes (web or mock)
+                          └─ Scheduler Agent           -> converts plan to calendar/slots
+Memory Bank (JSON/SQLite) <-> Session Service (InMemory + persistence)
+Observability -> logs.json (structured), metrics.csv
+
+3 — Agent responsibilities (design)
+
+OrchestratorAgent
+
+Entry point. Accepts user request (goal, constraints, pantry).
+
+Calls PlannerAgent → NutritionVerifier → RecipeWorker → Scheduler.
+
+Combines outputs, writes to memory, returns final plan.
+
+PlannerAgent
+
+LLM-powered. Generates meal plan structure: meals/day, calorie targets, meals that fit gut-health (low-FODMAP-ish, low-spice, simple fiber), and workout slots.
+
+Output: structured JSON plan with placeholders for recipe ids.
+
+NutritionVerifierAgent
+
+Validates that calories/macros meet goal (surplus for weight gain) and flags gut-risk ingredients.
+
+May call a simple nutrition table (local CSV) or use rough heuristics.
+
+RecipeToolWorker
+
+Tool that either scrapes recipe pages (or uses a free API / mocked data).
+
+Returns recipe title, ingredients list, prep time, steps, and approximate calories (if available).
+
+SchedulerAgent
+
+Assigns meals/workouts to time slots based on user's day (wake/sleep/work times).
+
+Produces shopping list aggregation (dedup & quantities approximated).
+
+MemoryBank & SessionService
+
+MemoryBank: stores user_profile, preferences, history (past plans), pantry.
+
+SessionService: ephemeral session context during plan creation; can pause/resume.
+
+4 — Data & memory schema (JSON examples)
+
+memory.json
+
+{
+  "user_profile": {
+    "name": "Yash",
+    "age": 20,
+    "height_cm": 168,
+    "weight_kg": 45,
+    "goal": "gain_weight",
+    "activity_level": "moderate",
+    "wake_time": "07:00",
+    "sleep_time": "23:00"
+  },
+  "preferences": {
+    "cuisine": ["Indian", "South Indian"],
+    "dislikes": ["onion"],
+    "allergies": ["peanut"],
+    "gut_issues": true
+  },
+  "pantry": {
+    "rice": 2,
+    "eggs": 6
+  },
+  "history": [
+    { "date": "2025-11-10", "plan_id": "plan_001", "success_rate": 0.8 }
+  ]
+}
+
+
+plan object (returned)
+
+{
+  "plan_id": "plan_20251120_01",
+  "user": "Yash",
+  "days": {
+    "Monday": [
+      { "meal": "breakfast", "recipe_id": "rec_001", "cal": 500, "notes": "" },
+      ...
+    ],
+    "Workout": [{"time":"18:00","type":"resistance","duration_min":45}]
+  },
+  "shopping_list": [
+    {"item":"milk","qty":"2L"},
+    {"item":"chicken_breast","qty":"1kg"}
+  ],
+  "estimated_daily_calories": 3000
+}
+
+5 — Tools (quick choices & fallbacks)
+
+Recipe Tool
+
+Preferred: free recipe API (if available) or scraping using requests + BeautifulSoup. But for the contest, a mock dataset of 100 recipes with calories is fine.
+
+Nutrition Table
+
+Local CSV mapping common foods → calories/macros per 100g.
+
+Calendar Connector
+
+Simple iCal or mock connector; optional integration with Google Calendar via OpenAPI (if you have API access — but DO NOT commit keys).
+
+Observability
+
+logs.jsonl with JSON lines for each major action.
+
+metrics.csv for plan generation time, verifier pass rate.
+
+6 — Repo structure (exact)
+capstone-meal-agent/
+├─ README.md
+├─ pitch.md
+├─ requirements.txt
+├─ demo.gif
+├─ src/
+│  ├─ orchestrator.py
+│  ├─ main.py            # CLI entrypoint
+│  ├─ agents/
+│  │   ├─ base_agent.py
+│  │   ├─ planner_agent.py
+│  │   ├─ verifier_agent.py
+│  │   ├─ recipe_worker.py
+│  │   └─ scheduler_agent.py
+│  ├─ tools/
+│  │   ├─ recipe_db.json
+│  │   └─ nutritions.csv
+│  ├─ memory/
+│  │   └─ memory_bank.py
+│  ├─ sessions/
+│  │   └─ session_service.py
+│  ├─ observability/
+│  │   └─ logger.py
+│  └─ tests/
+│      └─ test_end_to_end.py
+└─ writeup/
+   ├─ writeup.md
+   └─ architecture.png
+
+7 — Starter code snippets (copy & run — no API keys)
+
+Create requirements.txt:
+
+openai==0.27.0   # optional if you plan to use LLM; can mock
+requests
+beautifulsoup4
+pandas
+pytest
