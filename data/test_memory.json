@@ -24,6 +24,16 @@
       "date": "2025-11-20",
       "plan_id": "plan_20251120_153824",
       "success_rate": 0.8
+    },
+    {
+      "date": "2025-11-21",
+      "plan_id": "plan_20251121_124018",
+      "success_rate": 0.8
+    },
+    {
+      "date": "2025-11-21",
+      "plan_id": "plan_20251121_124225",
+      "success_rate": 0.8
     }
   ]
 }

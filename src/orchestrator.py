@@ -1,5 +1,6 @@
 from datetime import datetime
 from typing import Any, Dict
+import os
 from src.agents.planner_agent import PlannerAgent
 from src.agents.verifier_agent import NutritionVerifierAgent
 from src.agents.recipe_worker import RecipeWorker
@@ -21,7 +22,9 @@ class OrchestratorAgent:
         self.session_service = SessionService(logger)
         
         self.recipe_worker = RecipeWorker(logger=logger)
-        self.planner = PlannerAgent(self.recipe_worker, logger=logger)
+        # Enable real LLM usage automatically when GEMINI_API_KEY is present
+        use_real_llm = bool(os.getenv("GEMINI_API_KEY"))
+        self.planner = PlannerAgent(self.recipe_worker, logger=logger, use_real_llm=use_real_llm)
         self.verifier = NutritionVerifierAgent(logger=logger)
         self.scheduler = SchedulerAgent(logger=logger)
     

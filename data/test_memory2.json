@@ -10,6 +10,16 @@
       "date": "2025-11-20",
       "plan_id": "plan_001",
       "success_rate": 0.9
+    },
+    {
+      "date": "2025-11-21",
+      "plan_id": "plan_001",
+      "success_rate": 0.9
+    },
+    {
+      "date": "2025-11-21",
+      "plan_id": "plan_001",
+      "success_rate": 0.9
     }
   ]
 }
