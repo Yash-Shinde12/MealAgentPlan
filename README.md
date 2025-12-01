@@ -1,4 +1,4 @@
-pip install -r requirements.txt# Multi-Agent Meal Planning System
+ Multi-Agent Meal Planning System
 
 A sophisticated multi-agent system that creates personalized 7-day meal plans with workout schedules, optimized for weight gain and gut health. Built for the Google/Kaggle AI Hackathon.
 
